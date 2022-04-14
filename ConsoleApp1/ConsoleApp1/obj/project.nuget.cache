@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "g9PjN6yNvixn8q84SoA6SSY992t6RRrhB7nWQp10VHnTKL7XeupzfoeuYUfKNSmYWuYXTtqzt1sOY4XNAKw19A==",
+  "dgSpecHash": "ffSIDAyaeN7I3uDbN1xS7A1uEkVGhtKEGP/2iIfDe2Fok+lIxk71T7rOxwRfMuHYcyK2ACNu31YthM6FFkik9Q==",
   "success": true,
   "projectFilePath": "E:\\Study\\Testing\\Testing\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\hralo\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.24\\microsoft.netcore.app.host.win-x64.3.1.24.nupkg.sha512"
+  ],
   "logs": []
 }
