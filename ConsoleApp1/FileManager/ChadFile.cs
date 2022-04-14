@@ -5,24 +5,21 @@ namespace FileManager
 {
     public class ChadFile
     {
-        static string inputPath = "input.txt";
-        static string outputPath = "output.txt";
-
         static void Main(string[] args)
         {
 
         }
 
-        public static void WriteOutput(string[] output)
+        public static void WriteOutput(string[] output, string outputName)
         {
-            File.WriteAllLines(outputPath, output);
+            File.WriteAllLines(outputName + ".txt", output);
         }
 
 
-        public static string[] GetInput()
+        public static string[] GetInput(string inputName)
         {
             //File.WriteAllText(inputPath, "321");
-            return File.ReadAllLines(inputPath);
+            return File.ReadAllLines(inputName + ".txt");
         }
     }
 }

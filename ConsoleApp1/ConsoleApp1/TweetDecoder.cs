@@ -14,12 +14,12 @@ namespace ConsoleApp1
         }
         static void Main(string[] args)
         {
-            
+            TranslateTweetInputFile("input", "output");
         }
 
-        public static void TranslateTweetInputFile()
+        public static void TranslateTweetInputFile(string inputFilename, string outputFilename)
         {
-            var input = ChadFile.GetInput();
+            var input = ChadFile.GetInput(inputFilename);
 
             string[] output = new string[input.Length];
 
@@ -28,7 +28,7 @@ namespace ConsoleApp1
                 output[i] = ProcessATweet(input[i]);
             }
 
-            ChadFile.WriteOutput(output);
+            ChadFile.WriteOutput(output, outputFilename);
         }
 
         public static string ProcessATweet(string arg)
