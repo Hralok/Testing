@@ -5,7 +5,7 @@ using Xunit;
 
 namespace tests
 {
-    public class UnitTest1
+    public class UnitTests
     {
         [Theory]
         [InlineData("")]
@@ -19,7 +19,7 @@ namespace tests
             string tweet = value;
 
             // Act
-            var message = Program.MessageDecryption(tweet);
+            var message = TweetDecoder.MessageDecryption(tweet);
 
             // Assert
             var result = message == null;
@@ -31,15 +31,15 @@ namespace tests
         public void Translate_1Fire_ReturnYouAreFired()
         {
             // Arrange
-            var data = new List<Program.centance>();
-            Program.centance support = new Program.centance();
+            var data = new List<TweetDecoder.centance>();
+            TweetDecoder.centance support = new TweetDecoder.centance();
 
             support.count = 1;
             support.isItFire = true;
             data.Add(support);
 
             // Act
-            var message = Program.Translate(data);
+            var message = TweetDecoder.Translate(data);
 
             // Assert
             var result = message == "You are fired!";
@@ -51,15 +51,15 @@ namespace tests
         public void Translate_2Fire_ReturnYouAndYouAreFired()
         {
             // Arrange
-            var data = new List<Program.centance>();
-            Program.centance support = new Program.centance();
+            var data = new List<TweetDecoder.centance>();
+            TweetDecoder.centance support = new TweetDecoder.centance();
 
             support.count = 2;
             support.isItFire = true;
             data.Add(support);
 
             // Act
-            var message = Program.Translate(data);
+            var message = TweetDecoder.Translate(data);
 
             // Assert
             var result = message == "You and you are fired!";
@@ -71,15 +71,15 @@ namespace tests
         public void Translate_1Fury_ReturnIAmFurious()
         {
             // Arrange
-            var data = new List<Program.centance>();
-            Program.centance support = new Program.centance();
+            var data = new List<TweetDecoder.centance>();
+            TweetDecoder.centance support = new TweetDecoder.centance();
 
             support.count = 1;
             support.isItFire = false;
             data.Add(support);
 
             // Act
-            var message = Program.Translate(data);
+            var message = TweetDecoder.Translate(data);
 
             // Assert
             var result = message == "I am furious.";
@@ -91,15 +91,15 @@ namespace tests
         public void Translate_2Fury_ReturnIAmReallyFurious()
         {
             // Arrange
-            var data = new List<Program.centance>();
-            Program.centance support = new Program.centance();
+            var data = new List<TweetDecoder.centance>();
+            TweetDecoder.centance support = new TweetDecoder.centance();
 
             support.count = 2;
             support.isItFire = false;
             data.Add(support);
 
             // Act
-            var message = Program.Translate(data);
+            var message = TweetDecoder.Translate(data);
 
             // Assert
             var result = message == "I am really furious.";
@@ -111,8 +111,8 @@ namespace tests
         public void Translate_1Fire1Fury_ReturnYouAreFiredIAmFurious()
         {
             // Arrange
-            var data = new List<Program.centance>();
-            Program.centance support = new Program.centance();
+            var data = new List<TweetDecoder.centance>();
+            TweetDecoder.centance support = new TweetDecoder.centance();
 
             support.count = 1;
             support.isItFire = true;
@@ -121,7 +121,7 @@ namespace tests
             data.Add(support);
 
             // Act
-            var message = Program.Translate(data);
+            var message = TweetDecoder.Translate(data);
 
             // Assert
             var result = message == "You are fired! I am furious.";
@@ -133,23 +133,23 @@ namespace tests
         public void Translate_EmptyData_ThrowException()
         {
             // Arrange
-            var data = new List<Program.centance>();
+            var data = new List<TweetDecoder.centance>();
             string message;
 
             // Act
             // Assert
 
-            Assert.Throws<NotImplementedException>( () => message = Program.Translate(data));
+            Assert.Throws<NotImplementedException>( () => message = TweetDecoder.Translate(data));
         }
 
         [Fact]
         public void Translate_NullData_ReturnFakeTweet()
         {
             // Arrange
-            List<Program.centance> data = null;
+            List<TweetDecoder.centance> data = null;
 
             // Act
-            var message = Program.Translate(data);
+            var message = TweetDecoder.Translate(data);
 
             // Assert
             var result = message == "Fake tweet.";
@@ -161,8 +161,8 @@ namespace tests
         public void Translate_UnCorrectData_ThrowException()
         {
             // Arrange
-            var data = new List<Program.centance>();
-            Program.centance support = new Program.centance();
+            var data = new List<TweetDecoder.centance>();
+            TweetDecoder.centance support = new TweetDecoder.centance();
             string message;
 
             support.count = -1;
@@ -172,7 +172,7 @@ namespace tests
             // Act
             // Assert
 
-            Assert.Throws<NotImplementedException>( () => message = Program.Translate(data));
+            Assert.Throws<NotImplementedException>( () => message = TweetDecoder.Translate(data));
         }
     }
 }

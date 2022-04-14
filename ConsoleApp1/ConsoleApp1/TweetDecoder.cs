@@ -1,9 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
+using ConsoleApp1;
+using FileManager;
 
 namespace ConsoleApp1
 {
-    public class Program
+    public class TweetDecoder
     {
         public struct centance
         {
@@ -12,7 +14,21 @@ namespace ConsoleApp1
         }
         static void Main(string[] args)
         {
+            
+        }
 
+        public static void TranslateTweetInputFile()
+        {
+            var input = ChadFile.GetInput();
+
+            string[] output = new string[input.Length];
+
+            for (int i = 0; i < input.Length; i++)
+            {
+                output[i] = ProcessATweet(input[i]);
+            }
+
+            ChadFile.WriteOutput(output);
         }
 
         public static string ProcessATweet(string arg)
@@ -114,7 +130,7 @@ namespace ConsoleApp1
             }
             else
             {
-                if (decryptedMessage.Count==0)
+                if (decryptedMessage.Count == 0)
                 {
                     throw new NotImplementedException("Некорректные входные данные");
                 }

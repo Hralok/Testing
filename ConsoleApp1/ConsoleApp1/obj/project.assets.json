@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "FileManager/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/FileManager.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FileManager.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "FileManager/1.0.0": {
+      "type": "project",
+      "path": "../FileManager/FileManager.csproj",
+      "msbuildProject": "../FileManager/FileManager.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "FileManager >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\hralo\\.nuget\\packages\\": {}
@@ -13,9 +32,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Study\\Testing\\Testing\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
-      "projectName": "ConsoleApp1",
-      "projectPath": "E:\\Study\\Testing\\Testing\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
+      "projectUniqueName": "E:\\Study\\Testing\\Testing\\ConsoleApp1\\ConsoleApp1\\SomeApp.csproj",
+      "projectName": "SomeApp",
+      "projectPath": "E:\\Study\\Testing\\Testing\\ConsoleApp1\\ConsoleApp1\\SomeApp.csproj",
       "packagesPath": "C:\\Users\\hralo\\.nuget\\packages\\",
       "outputPath": "E:\\Study\\Testing\\Testing\\ConsoleApp1\\ConsoleApp1\\obj\\",
       "projectStyle": "PackageReference",
@@ -33,7 +52,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "E:\\Study\\Testing\\Testing\\ConsoleApp1\\FileManager\\FileManager.csproj": {
+              "projectPath": "E:\\Study\\Testing\\Testing\\ConsoleApp1\\FileManager\\FileManager.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -55,12 +78,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[3.1.24, 3.1.24]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"

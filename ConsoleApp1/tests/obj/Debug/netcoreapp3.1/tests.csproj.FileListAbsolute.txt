@@ -1,8 +1,4 @@
 E:\Study\Testing\Testing\ConsoleApp1\tests\bin\Debug\netcoreapp3.1\testhost.dll
-E:\Study\Testing\Testing\ConsoleApp1\tests\bin\Debug\netcoreapp3.1\ConsoleApp1.deps.json
-E:\Study\Testing\Testing\ConsoleApp1\tests\bin\Debug\netcoreapp3.1\ConsoleApp1.runtimeconfig.json
-E:\Study\Testing\Testing\ConsoleApp1\tests\bin\Debug\netcoreapp3.1\ConsoleApp1.runtimeconfig.dev.json
-E:\Study\Testing\Testing\ConsoleApp1\tests\bin\Debug\netcoreapp3.1\ConsoleApp1.exe
 E:\Study\Testing\Testing\ConsoleApp1\tests\bin\Debug\netcoreapp3.1\testhost.exe
 E:\Study\Testing\Testing\ConsoleApp1\tests\bin\Debug\netcoreapp3.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
 E:\Study\Testing\Testing\ConsoleApp1\tests\bin\Debug\netcoreapp3.1\xunit.runner.reporters.netcoreapp10.dll
@@ -91,8 +87,6 @@ E:\Study\Testing\Testing\ConsoleApp1\tests\bin\Debug\netcoreapp3.1\zh-Hans\Micro
 E:\Study\Testing\Testing\ConsoleApp1\tests\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
 E:\Study\Testing\Testing\ConsoleApp1\tests\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
 E:\Study\Testing\Testing\ConsoleApp1\tests\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
-E:\Study\Testing\Testing\ConsoleApp1\tests\bin\Debug\netcoreapp3.1\ConsoleApp1.dll
-E:\Study\Testing\Testing\ConsoleApp1\tests\bin\Debug\netcoreapp3.1\ConsoleApp1.pdb
 E:\Study\Testing\Testing\ConsoleApp1\tests\obj\Debug\netcoreapp3.1\tests.csproj.AssemblyReference.cache
 E:\Study\Testing\Testing\ConsoleApp1\tests\obj\Debug\netcoreapp3.1\tests.AssemblyInfoInputs.cache
 E:\Study\Testing\Testing\ConsoleApp1\tests\obj\Debug\netcoreapp3.1\tests.AssemblyInfo.cs
@@ -101,3 +95,16 @@ E:\Study\Testing\Testing\ConsoleApp1\tests\obj\Debug\netcoreapp3.1\tests.csproj.
 E:\Study\Testing\Testing\ConsoleApp1\tests\obj\Debug\netcoreapp3.1\tests.dll
 E:\Study\Testing\Testing\ConsoleApp1\tests\obj\Debug\netcoreapp3.1\tests.pdb
 E:\Study\Testing\Testing\ConsoleApp1\tests\obj\Debug\netcoreapp3.1\tests.genruntimeconfig.cache
+E:\Study\Testing\Testing\ConsoleApp1\tests\bin\Debug\netcoreapp3.1\SomeApp.deps.json
+E:\Study\Testing\Testing\ConsoleApp1\tests\bin\Debug\netcoreapp3.1\SomeApp.runtimeconfig.json
+E:\Study\Testing\Testing\ConsoleApp1\tests\bin\Debug\netcoreapp3.1\SomeApp.runtimeconfig.dev.json
+E:\Study\Testing\Testing\ConsoleApp1\tests\bin\Debug\netcoreapp3.1\FileManager.deps.json
+E:\Study\Testing\Testing\ConsoleApp1\tests\bin\Debug\netcoreapp3.1\FileManager.runtimeconfig.json
+E:\Study\Testing\Testing\ConsoleApp1\tests\bin\Debug\netcoreapp3.1\FileManager.runtimeconfig.dev.json
+E:\Study\Testing\Testing\ConsoleApp1\tests\bin\Debug\netcoreapp3.1\FileManager.exe
+E:\Study\Testing\Testing\ConsoleApp1\tests\bin\Debug\netcoreapp3.1\SomeApp.exe
+E:\Study\Testing\Testing\ConsoleApp1\tests\bin\Debug\netcoreapp3.1\FileManager.dll
+E:\Study\Testing\Testing\ConsoleApp1\tests\bin\Debug\netcoreapp3.1\SomeApp.dll
+E:\Study\Testing\Testing\ConsoleApp1\tests\bin\Debug\netcoreapp3.1\SomeApp.pdb
+E:\Study\Testing\Testing\ConsoleApp1\tests\bin\Debug\netcoreapp3.1\FileManager.pdb
+E:\Study\Testing\Testing\ConsoleApp1\tests\obj\Debug\netcoreapp3.1\tests.GeneratedMSBuildEditorConfig.editorconfig
