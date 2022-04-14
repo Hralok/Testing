@@ -14,11 +14,16 @@ namespace ConsoleApp1
         }
         static void Main(string[] args)
         {
-            TranslateTweetInputFile("input", "output");
+            TranslateTweetsFromInputFile("input", null);
         }
 
-        public static void TranslateTweetInputFile(string inputFilename, string outputFilename)
+        public static void TranslateTweetsFromInputFile(string inputFilename, string outputFilename)
         {
+            if (inputFilename == null || outputFilename == null)
+            {
+                throw new ArgumentNullException();
+            }
+
             var input = ChadFile.GetInput(inputFilename);
 
             string[] output = new string[input.Length];
