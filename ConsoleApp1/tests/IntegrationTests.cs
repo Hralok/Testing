@@ -246,7 +246,7 @@ namespace tests
 
             Assert.Throws<ArgumentNullException>(() => TweetDecoder.TranslateTweetsFromInputFile(
                 null,
-                "output_IntegrationTest_3"));
+                "output_IntegrationTest_7"));
         }
 
         [Fact]
