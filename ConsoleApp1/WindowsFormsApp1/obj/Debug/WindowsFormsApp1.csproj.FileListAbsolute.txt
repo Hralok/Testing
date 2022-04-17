@@ -1,0 +1,9 @@
+E:\Study\Testing\Testing\ConsoleApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+E:\Study\Testing\Testing\ConsoleApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+E:\Study\Testing\Testing\ConsoleApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+E:\Study\Testing\Testing\ConsoleApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+E:\Study\Testing\Testing\ConsoleApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+E:\Study\Testing\Testing\ConsoleApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+E:\Study\Testing\Testing\ConsoleApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+E:\Study\Testing\Testing\ConsoleApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+E:\Study\Testing\Testing\ConsoleApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb

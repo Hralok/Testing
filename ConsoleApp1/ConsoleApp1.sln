@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SomeApp", "ConsoleApp1\Some
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "tests", "tests\tests.csproj", "{65BAA40A-331E-484B-B495-A674019F7DD7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileManager", "FileManager\FileManager.csproj", "{2A18608A-7C2B-4CF5-8E64-354A858D1678}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileManager", "FileManager\FileManager.csproj", "{2A18608A-7C2B-4CF5-8E64-354A858D1678}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApp1", "WindowsFormsApp1\WindowsFormsApp1.csproj", "{4B94F3E5-8B18-470C-8E0A-EC350050F309}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{2A18608A-7C2B-4CF5-8E64-354A858D1678}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A18608A-7C2B-4CF5-8E64-354A858D1678}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A18608A-7C2B-4CF5-8E64-354A858D1678}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B94F3E5-8B18-470C-8E0A-EC350050F309}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B94F3E5-8B18-470C-8E0A-EC350050F309}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B94F3E5-8B18-470C-8E0A-EC350050F309}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B94F3E5-8B18-470C-8E0A-EC350050F309}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

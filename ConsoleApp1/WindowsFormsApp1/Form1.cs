@@ -1,38 +1,33 @@
 ﻿using System;
 using System.Collections.Generic;
-using FileManager;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Windows.Forms;
 
-namespace ConsoleApp1
+namespace WindowsFormsApp1
 {
-    public class TweetDecoder
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void stwbut_Click(object sender, EventArgs e)
+        {
+            outputlabel.Text = TweetDecoderForWForm.ProcessATweet(inputtbox.Text);
+        }
+    }
+
+    public class TweetDecoderForWForm
     {
         public struct centance
         {
             public int count;
             public bool isItFire;
-        }
-        static void Main(string[] args)
-        {
-            TranslateTweetsFromInputFile("input", null);
-        }
-
-        public static void TranslateTweetsFromInputFile(string inputFilename, string outputFilename)
-        {
-            if (inputFilename == null || outputFilename == null)
-            {
-                throw new ArgumentNullException();
-            }
-
-            var input = ChadFile.GetInput(inputFilename);
-
-            string[] output = new string[input.Length];
-
-            for (int i = 0; i < input.Length; i++)
-            {
-                output[i] = ProcessATweet(input[i]);
-            }
-
-            ChadFile.WriteOutput(output, outputFilename);
         }
 
         public static string ProcessATweet(string arg)
@@ -189,20 +184,6 @@ namespace ConsoleApp1
 
 
         }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     }
