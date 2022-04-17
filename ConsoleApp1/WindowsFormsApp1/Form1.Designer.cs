@@ -31,6 +31,8 @@
             this.stwbut = new System.Windows.Forms.Button();
             this.inputtbox = new System.Windows.Forms.TextBox();
             this.outputlabel = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // stwbut
@@ -61,11 +63,31 @@
             this.outputlabel.TabIndex = 0;
             this.outputlabel.Text = "123";
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(13, 3);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(37, 13);
+            this.label1.TabIndex = 3;
+            this.label1.Text = "Tweet";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(484, 3);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(59, 13);
+            this.label2.TabIndex = 4;
+            this.label2.Text = "Translation";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.outputlabel);
             this.Controls.Add(this.inputtbox);
             this.Controls.Add(this.stwbut);
@@ -80,6 +102,8 @@
         private System.Windows.Forms.Button stwbut;
         private System.Windows.Forms.TextBox inputtbox;
         private System.Windows.Forms.Label outputlabel;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
     }
 }
 
